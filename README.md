@@ -25,7 +25,6 @@
        alt="Snake eating contributions" />
 </p>
 
-> If you don't see the snake right away, make sure the workflow (provided below) has run at least once to generate the `output/github-contribution-grid-snake-*.svg` files.
 
 ---
 
