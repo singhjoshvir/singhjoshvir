@@ -1,0 +1,40 @@
+name: Generate GitHub Contribution Snake
+
+on:
+  schedule:
+    # daily at 00:30 UTC (adjust as you like)
+    - cron: '30 0 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write     # required to push generated files back to the repo
+      id-token: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Generate snake (svg + gif options)
+        uses: Platane/snk@v2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          output: output
+          username: singhjoshvir
+          # color palette (example) - you can customize
+          # palette: "#0f172a,#164e63,#0ea5a4,#34d399"
+          # theme: dark # or light or both generation
+          theme: dark,light
+          # format: svg,gif
+
+      - name: Commit and push generated files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: update contribution-snake"
+          file_pattern: output/*
