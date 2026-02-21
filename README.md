@@ -1,7 +1,7 @@
 <p align="center"> <img src="https://github.com/singhjoshvir/Joshvir-Singh/blob/main/Blue%20Modern%20Corporate%20Staff%20Profile%20LinkedIn%20Banner.png" width="100%"> </p>
 
 <h1 align="center">🌌 Joshvir Singh</h1>
-<h3 align="center">🚀 Future-focused Software Engineer</h3>
+<h3 align="center">🚀 Future-focused Computer Engineer</h3>
 
 ---
 
