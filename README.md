@@ -1,6 +1,6 @@
 <p align="center"> <img src="https://github.com/singhjoshvir/singhjoshvir/blob/main/BLack%20Minimalist%20Corporate%20Staff%20Identity%20LinkedIn%20Banner.png" width="100%"> </p>
 
-<h1 align="center"> Joshvir Singh</h1>
+<h1 align="center"> AI|ML INTERN</h1>
 <h3 align="left">With a strong engineering foundation ranging from a Diploma in Mechanical Engineering to advanced Computer Science, I bring a unique, analytical perspective to software development.
 
 I'm Computer Engineering student at Thapar Institute of Engineering & Technology with a strong focus on Data Structures, Web Development, and Cybersecurity. I am result-oriented and committed to continuous learning through hackathons and competitive programming.
